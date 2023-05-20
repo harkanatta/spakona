@@ -1,0 +1,41 @@
+[more]
+other = "Meira"
+
+[allTitle]
+other = "Allt {{.Title }}"
+
+[recentTitle]
+other = "Nýjast {{.Title }}"
+
+[readMore]
+other = "Lesa meira"
+
+[by]
+other = "af"
+
+[whatsInThis]
+other = "Inniheldur {{ .Type }}"
+
+[related]
+other = "skilt"
+
+[yourName]
+other = "Þitt nafn"
+
+[emailAddress]
+other = "Tölvupóstfang"
+
+[message]
+other = "skilaboð"
+
+[emailRequiredNote]
+other = "Tölvupóstfang er skilyrði"
+
+[send]
+other = "Senda"
+
+[taxonomyPageList]
+other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
+
+[pageTitle]
+other = "{{ .Name }} síða"

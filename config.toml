@@ -1,0 +1,51 @@
+baseURL = "https://www.example.com/"
+languageCode = "en-us"
+title = "Museum of Prophecies"
+theme = ["ananke", "hugo-shortcode-gallery"]
+resourceDir = "../resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+
+[languages]
+  [languages.en]
+    title = "Museum of Prophecies"
+    weight = 1
+    contentDir = "content/en"
+    # languageDirection = 'rtl' for Right-To-Left languages
+  [languages.is]
+    title = "Spákonuhof"
+    weight = 2
+    contentDir = "content/is"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  author = ""
+  favicon = "/images/favicon_io/favicon.ico"
+  site_logo = "/images/logo_-_Copy-removebg-preview.png"
+  description = "The last theme you'll ever need. Maybe."
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  primary_color = "#a87039"
+  secondary_color = "#291e19"
+  background_color = "#fbf9f1"
+  text_color = "#8c7460"
+  link_color = "#a37575"
+  link_hover_color = "#c9a47b"
+  button_color = "#ccbea4"
+  button_hover_color = "#cfb4a5"
+  recent_posts_number = 3
+
+[[params.ananke_socials]]
+
+name = "instagram"
+url = "https://www.instagram.com/spakonuhof/"
+
+
