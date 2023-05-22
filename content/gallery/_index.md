@@ -3,7 +3,7 @@ title: "Gallery"
 date: 2023-05-17T21:49:26Z
 tags: []
 cascade:
-  featured_image: '/images/refillB.jpg'
+  featured_image: 'https://raw.githubusercontent.com/harkanatta/spakona/main/static/images/refillB.jpg'
 description: "Myndir"
 type: gallery
 ---
