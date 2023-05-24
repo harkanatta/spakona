@@ -1,0 +1,5 @@
+0:blogdown::serve_site()
+1684884916234:blogdown::serve_site()
+1684884930305:getwd()
+1684885072545:list.dirs()
+1684885141842:blogdown::serve_site("./content/_index.md" )

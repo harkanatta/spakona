@@ -1,0 +1,16 @@
+{{ $path := .Get "path" }}
+{{ $images := readDir (printf "static/%s" $path) }}
+<div class="gallery">
+    {{ range $images }}
+        {{ $image := . }}
+        {{ if and (not $image.IsDir) (in (slice ".jpg" ".png") (path.Ext $image.Name)) }}
+            <a href="/{{ $path }}/{{ $image.Name }}" class="gallery-item" data-caption="{{ $image.Name }}">
+                <img src="/{{ $path }}/{{ $image.Name }}" alt="{{ $image.Name }}">
+            </a>
+        {{ end }}
+    {{ end }}
+</div>
+<script>
+    baguetteBox.run('.gallery');
+</script>
+

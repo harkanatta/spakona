@@ -90,7 +90,7 @@ Your Name Email Address An email address is required.  Message   </description>
       
       <guid>https://zippy-bombolone-01cfe6.netlify.app/gallery/</guid>
       <description>Myndir
-         if (!jQuery) { alert(&#34;jquery is not loaded&#34;); } $( document ).ready(() = { const gallery = $(&#34;#gallery-b97bb1cc925ed6a73c90c415f6f5c20c-0&#34;); let swipeboxInstance = null; gallery.on(&#39;jg.complete&#39;, () = { $(() = { $(&#39;.lazy&#39;).Lazy({ visibleOnly: true, afterLoad: element = element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;}) }); }); swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox( jQuery.extend({}, { } ) ); }); gallery.justifiedGallery({ rowHeight : &#34;150&#34;, margins : &#34;5&#34;, border : 0, randomize : false , waitThumbnailsLoad : false, lastRow : &#34;</description>
+                                    baguetteBox.run(&#39;.gallery&#39;);  </description>
     </item>
     
   </channel>

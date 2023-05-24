@@ -18,3 +18,15 @@
 .nested-links a{
   overflow-wrap: break-word;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+

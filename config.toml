@@ -1,7 +1,7 @@
 baseURL = "https://zippy-bombolone-01cfe6.netlify.app/"
 languageCode = "en-us"
 title = "Museum of Prophecies"
-theme = ["ananke", "hugo-shortcode-gallery"]
+theme = "ananke"
 resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
